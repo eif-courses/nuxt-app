@@ -1,11 +1,19 @@
 <template>
   <div>
     <nav>
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/about">About</nuxt-link>
+      <NuxtLink to="/">
+        Home
+      </NuxtLink>
+      <NuxtLink to="/about">
+        About
+      </NuxtLink>
     </nav>
 
     <slot />
 
   </div>
 </template>
+<script>export default {
+  components: {}
+}
+</script>
